@@ -1,0 +1,19 @@
+#blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.article img{
+    width: 400px;
+}
+.article{
+    padding: 10px;
+border: 2px solid black;
+font-size: small;
+border-radius: 10px;
+text-align: center;
+}
+
+.article:hover{
+    background-color: orange;
+}
